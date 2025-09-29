@@ -1,10 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =8
-let g:netrw_dirhist_8='/home/sudipk/.config/astro'
-let g:netrw_dirhist_7='/etc/X11/xorg.conf.d'
-let g:netrw_dirhist_6='/etc/NetworkManager/conf.d'
-let g:netrw_dirhist_5='/usr/share/zsh/plugins/zsh-extract'
-let g:netrw_dirhist_4='/home/sudipk/Documents/Code/barber-view'
-let g:netrw_dirhist_3='/home/sudipk/Scripts'
-let g:netrw_dirhist_2='/usr/lib/sddm/sddm.conf.d'
-let g:netrw_dirhist_1='/home/sudipk/.config/hypr'
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/etc/sddm.conf.d'

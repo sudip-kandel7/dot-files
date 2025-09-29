@@ -37,8 +37,6 @@ ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to change how often to auto-update (in days).
 # zstyle ':omz:update' frequency 13
-# Add near the top of ~/.zshrc
-
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -51,7 +49,7 @@ ZSH_THEME="robbyrussell"
 
 # Uncomment the following line to enable command auto-correction.
 # ENABLE_CORRECTION="true"
-
+bindkey -v
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
 # e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
@@ -80,7 +78,7 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
-bindkey -v
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -111,10 +109,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+
 source ~/powerlevel10k/powerlevel10k.zsh-theme
-source ~/.zsh/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-# Add at the end of ~/.zshrc
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
-source /usr/share/zsh/plugins/zsh-extract/extract.plugin.zsh
+
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

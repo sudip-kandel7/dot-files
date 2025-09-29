@@ -1,1 +1,19 @@
-/* User custom styles */
+/* Remove the main bar background completely */
+window#waybar.top,
+window#waybar.bottom {
+    background: none;  /* removes the big transparent bar */
+    border: none;
+    box-shadow: none;
+    margin-top: 1px
+}
+
+/* Make module backgrounds slightly transparent */
+window#waybar.top #leaf,
+window#waybar.top #pill,
+window#waybar.bottom #leaf,
+window#waybar.bottom #pill {
+    background-color: rgba(0, 0, 0, 0.1); /* adjust alpha (0.0 to 1.0) for transparency */
+    border-radius: 19px;  /* optional: rounded corners */
+    padding: 2px 6px;     /* optional: spacing around content */
+}
+
