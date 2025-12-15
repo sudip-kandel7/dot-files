@@ -35,15 +35,10 @@
 
     // CENTER MODULES
     "modules-center": [
-        "group/pill#center"
-    ],
-    "group/pill#center": {
-        "orientation": "inherit",
-        "modules": [
             "hyprland/workspaces",
-            "hyprland/window"
-        ]
-    },
+            "hyprland/window
+     ],
+    
 
     // RIGHT MODULES
     "modules-right": [
